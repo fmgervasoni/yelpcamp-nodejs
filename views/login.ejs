@@ -1,0 +1,13 @@
+<% include partials/header %>
+  <div class="container text-center">
+      <form class="form-signin" action="/login" method="post">
+        <h1><i class="fas fa-fingerprint"></i></h1>
+        <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" name="username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      </form>
+    </div>
+<% include partials/footer %>
